@@ -1,0 +1,7 @@
+<div *ngFor="let items of listusers">
+    <p>{{ items.id }}</p>
+    <img [src]="items.profilePhotoUrl" alt="">
+    <h1>{{ items.name }}</h1>
+    <h2>{{ items.age }} </h2>
+    <h3>{{ items.address.city }}</h3>
+</div>
