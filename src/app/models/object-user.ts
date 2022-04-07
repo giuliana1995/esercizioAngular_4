@@ -1,8 +1,8 @@
-import { Gender, Role, Userlist } from "./interface.component";
-
-export {OBJUSER}
+import { Gender, Role, Userlist } from "./interface-user";
+export {OBJUSER};
 
 const OBJUSER: Userlist[] = [
+
     {
         id: 1,
         name: 'Mario',
@@ -51,5 +51,4 @@ const OBJUSER: Userlist[] = [
         profilePhotoUrl: 'https://bit.ly/3zU6iH3',
         gender: Gender.FEMALE
       }
-
-]
+];

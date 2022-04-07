@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Userlist } from './interface.component';
-import { OBJUSER } from './obj-user-list.component';
+import { Userlist } from '../models/interface-user';
+import { OBJUSER } from '../models/object-user';
 
 @Component({
   selector: 'app-user-list',
@@ -8,8 +8,8 @@ import { OBJUSER } from './obj-user-list.component';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
-  listusers: Userlist[] = OBJUSER;
-  
+
+  listUser: Userlist[] = OBJUSER;
 
   constructor() { }
 

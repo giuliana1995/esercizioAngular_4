@@ -1,7 +1,8 @@
-export enum Role {STAFF,MANAGER,ADMIN};
-export enum Gender {MALE,FEMALE,OTHER}
+export enum Role {STAFF, MANAGER, ADMIN};
+export enum Gender {MALE, FEMALE, OTHER};
 
 export interface Userlist {
+
     id: number;
     name: string;
     surname: string;
@@ -16,4 +17,5 @@ export interface Userlist {
     username: string;
     profilePhotoUrl: string;
     gender: Gender;
+
 }[];
